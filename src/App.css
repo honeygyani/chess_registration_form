@@ -1,0 +1,83 @@
+/* Filename - App.css */
+/* It containds the Form and Page Styling*/
+
+body {
+  background: black;
+  text-align: center;
+}
+.App {
+  background-color: yellowgreen;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(144, 70, 70, 0.2);
+  padding: 50px 100px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  color: #7c3234;
+  
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 1px solid ;
+  border-radius: 50px;
+  font-size: 15px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: 20%;
+}
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: purple;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px;
+  border-radius: 50px;
+  margin: 15px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  background-color: yellow;
+  width: 40%;
+  font-size: 16px;
+}
+textarea {
+  resize: none;
+  width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+  border-radius: 10px;
+}
